@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Labb2.Views.CurrencyPage"
+             Title="Currency Exchange"
+             xmlns:converters="clr-namespace:Labb2.Converters;assembly=Labb2">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:FirstValidationErrorConverter x:Key="FirstValidationErrorConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="{Binding InputValidation.Errors, Converter={StaticResource FirstValidationErrorConverter}}"
+                HorizontalOptions="CenterAndExpand"/>
+            
+            <Entry 
+                x:Name="AmountInput"
+                Keyboard="Numeric"
+                Placeholder="Amount"
+                ReturnType="Search"
+                FontSize="Medium"
+                Text="{Binding Amount}"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                WidthRequest="250"
+                HeightRequest="50"
+                />
+            
+            <Picker 
+                x:Name="firstCurrencyPicker" 
+                Title="USD"
+                FontSize="Small"
+                VerticalOptions="Start"
+                HorizontalOptions="Center"
+                ItemsSource="{Binding Currencies}"
+                SelectedIndex="{Binding FirstCurrency}"
+                WidthRequest="250"
+                HeightRequest="35"
+                Margin="4"
+               />
+
+            <Label Text="To" HorizontalOptions="Center"/>
+
+            <Picker 
+                x:Name="secondCurrencyPicker" 
+                Title="USD"
+                FontSize="Small"
+                VerticalOptions="Start"
+                HorizontalOptions="Center"
+                ItemsSource="{Binding Currencies}"
+                SelectedIndex="{Binding SecondCurrency}"
+                WidthRequest="250"
+                HeightRequest="35"
+                Margin="4"
+               />
+
+
+
+            <Button 
+                x:Name="CalculateButton"
+                Text="Calculate Exchange"
+                TextColor="White"
+                WidthRequest="205"
+                HeightRequest="55"
+                Margin="8"
+                Command="{Binding CalculateCommand}"
+                HorizontalOptions="Center"
+            >
+                <Button.BackgroundColor>
+                    <OnPlatform
+                        x:TypeArguments="Color"
+                        Android="#3498db"                 
+                        iOS="#e74c3c">
+                    </OnPlatform>
+                </Button.BackgroundColor>
+            </Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

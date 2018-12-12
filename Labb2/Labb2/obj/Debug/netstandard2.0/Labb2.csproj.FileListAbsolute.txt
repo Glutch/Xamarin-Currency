@@ -1,0 +1,14 @@
+C:\Users\olive\Documents\Visual Studio 2017\Projects\Labb2\Labb2\Labb2\bin\Debug\netstandard2.0\Labb2.deps.json
+C:\Users\olive\Documents\Visual Studio 2017\Projects\Labb2\Labb2\Labb2\bin\Debug\netstandard2.0\Labb2.dll
+C:\Users\olive\Documents\Visual Studio 2017\Projects\Labb2\Labb2\Labb2\bin\Debug\netstandard2.0\Labb2.pdb
+C:\Users\olive\Documents\Visual Studio 2017\Projects\Labb2\Labb2\Labb2\obj\Debug\netstandard2.0\Labb2.csprojAssemblyReference.cache
+C:\Users\olive\Documents\Visual Studio 2017\Projects\Labb2\Labb2\Labb2\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\olive\Documents\Visual Studio 2017\Projects\Labb2\Labb2\Labb2\obj\Debug\netstandard2.0\Labb2.csproj.CoreCompileInputs.cache
+C:\Users\olive\Documents\Visual Studio 2017\Projects\Labb2\Labb2\Labb2\obj\Debug\netstandard2.0\Labb2.AssemblyInfoInputs.cache
+C:\Users\olive\Documents\Visual Studio 2017\Projects\Labb2\Labb2\Labb2\obj\Debug\netstandard2.0\Labb2.AssemblyInfo.cs
+C:\Users\olive\Documents\Visual Studio 2017\Projects\Labb2\Labb2\Labb2\obj\Debug\netstandard2.0\Labb2.dll
+C:\Users\olive\Documents\Visual Studio 2017\Projects\Labb2\Labb2\Labb2\obj\Debug\netstandard2.0\Labb2.pdb
+C:\Users\olive\Documents\Visual Studio 2017\Projects\Labb2\Labb2\Labb2\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\olive\Documents\Visual Studio 2017\Projects\Labb2\Labb2\Labb2\obj\Debug\netstandard2.0\Views\CurrencyPage.xaml.g.cs
+C:\Users\olive\Documents\Visual Studio 2017\Projects\Labb2\Labb2\Labb2\obj\Debug\netstandard2.0\Views\ResultPage.xaml.g.cs
+C:\Users\olive\Documents\Visual Studio 2017\Projects\Labb2\Labb2\Labb2\obj\Debug\netstandard2.0\XamlC.stamp
